@@ -37,7 +37,7 @@ services:
   result:
     image: eddiedlopez/result:latest
     ports:
-      - 5001:4000
+      - 5001:4001
     depends_on:
       - db
     networks:
